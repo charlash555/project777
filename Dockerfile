@@ -16,4 +16,4 @@ RUN rm -rf travelista-master travelista-master.zip
 
 CMD ["nginx", "-g", "daemon off;"]
 
-EXPOSE 80
+EXPOSE 80 22
